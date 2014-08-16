@@ -9,21 +9,26 @@
     <link rel="stylesheet" href="sample.css" type="text/css">
   </head>
   <body>
-    <h1>Bookmark</h1>
+    <h1 style="margin-left: 20px;">Bookmark</h1>
     <div class="col-md-7">
     </div>
-    <div class="col-md-5" align="right">
-      <button type="button" class="btn btn-lg btn-default">Default</button>
-      <button type="button" class="btn btn-lg btn-default">Default</button>
+    <div class="col-md-5" align="right" style="margin-bottom: 20px;">
+      <div class="btn-group">
+	<button type="button" class="btn btn-lg btn-default">新規作成</button>
+	<button type="button" class="btn btn-lg btn-default">削除</button>
+      </div>
     </div>
-    <div style="padding : 10px 10px 10px 10px">
+    <div class="sample1">
+      <!-- 左端の要素 -->
       <div class="col-md-2 sidebar">
 	<div class="panel panel-primary">
+	  <!-- パネルタイトル -->
 	  <div class="panel-heading">
 	    <h3 class="panel-title">Tags</h3>
 	  </div>
+	  <!-- パネルコンテンツ -->
 	  <div class="panel-body">
-	    <ul style="list-style:none;">
+	    <ul style="list-style:none;" class="sample4">
 	      <li> a </li>
 	      <li> b </li>
 	    </ul>
@@ -31,17 +36,17 @@
 	</div>
       </div>
       <div class="col-md-10 sample3 main">
-	<div class="sample3">
-	    <ul style="list-style:none;">
-	      <li> ブックマーク１ </li>
-	      <li> URL１ </li>
-	    </ul>
+	<div class="sample2">
+	  <ul style="list-style:none;">
+	    <li> ブックマーク１ </li>
+	    <li> URL１ </li>
+	  </ul>
 	</div>
-	<div class="sample3">
-	    <ul style="list-style:none;">
-	      <li> ブックマーク２ </li>
-	      <li> URL２ </li>
-	    </ul>
+	<div class="sample2">
+	  <ul style="list-style:none;">
+	    <li> ブックマーク２ </li>
+	    <li> URL２ </li>
+	  </ul>
 	</div>
       </div>
     </div>

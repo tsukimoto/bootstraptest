@@ -1,7 +1,17 @@
-p.sample1 {margin: 10px;}
-p.sample2 {border: inset 10px #ff0000;}
+div.sample1 {
+margin: 20px;
+}
+div.sample2 {
+margin: 20px;
+border: medium solid #000000;
+}
 div.sample3 {
 /*margin: 30px 30px;*/
 padding: 10px;
 border: medium solid #000000;
+}
+ul.sample4 {
+list-style: none;
+margin: 0px;
+padding: 0px;
 }
