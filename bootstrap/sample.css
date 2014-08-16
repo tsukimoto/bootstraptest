@@ -1,6 +1,6 @@
 p.sample1 {margin: 10px;}
 p.sample2 {border: inset 10px #ff0000;}
-p.sample3 {
+div.sample3 {
 /*margin: 30px 30px;*/
 padding: 10px;
 border: medium solid #000000;
